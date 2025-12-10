@@ -1,0 +1,61 @@
+# =============================================
+#   GITIGNORE COMPLET POUR PROJET NEXT.JS
+# =============================================
+
+# --- Node / Next.js ---
+node_modules/
+.next/
+out/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Environment files ---
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# --- Supabase local config ---
+.supabase/
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+logs/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Build Output ---
+/.vercel
+.vercel-build-output
+
+# --- Backup files ---
+*.bak
+*.tmp
+
+# --- TypeScript ---
+*.tsbuildinfo
+
+# --- Next.js cache ---
+.cache/
+
+# --- Uploads / temp ---
+tmp/
+uploads/
+
+# --- Prevent accidentally committing Stripe keys ---
+stripe.json
